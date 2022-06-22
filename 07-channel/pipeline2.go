@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
-
+//<-chan int是接收int
+//chan int<-发送
 func counter(out chan<-int){
 	for x:=0;x<100;x++{
 		//发送
@@ -22,6 +23,7 @@ func Printer(in <-chan int){
 	}
 }
 func main(){
+
 	naturals := make(chan int)
 	squares:= make(chan int)
 	//导致naturals隐式转换为发送型
