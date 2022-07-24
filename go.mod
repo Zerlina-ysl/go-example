@@ -7,8 +7,6 @@ require (
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e
 	github.com/gin-gonic/gin v1.7.7
 	github.com/stretchr/testify v1.7.1
-	//code.byted.org/middleware/hertz/pkg/app v1.2.3
-	//code.byted.org/middleware/hertz/pkg/app/server v1.2.3
 
 )
 

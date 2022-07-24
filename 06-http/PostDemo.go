@@ -4,8 +4,6 @@ import (
 	"context"
 	"golang.org/x/tools/cmd/getgo/server"
 
-	//"code.byted.org/middleware/hertz/pkg/app"
-	//"code.byted.org/middleware/hertz/pkg/app/server"
 )
 
 
